@@ -189,7 +189,7 @@ function handleTick() {
         }
   
 
-        if(life == 0)
+        if(life < 0)
         {
             lifeBoard.text = "life: ☆☆☆☆☆";
             scene_id = 2;
